@@ -21,9 +21,14 @@ export class AppComponent {
       icon: 'home'
     },
     {
-      title: 'List',
-      url: '/list',
-      icon: 'list'
+      title: 'Instação',
+      url: '/instalacao',
+      icon: 'settings'
+    },
+    {
+      title: 'Layouts',
+      url: '/layout',
+      icon: 'desktop'
     }
   ];
 

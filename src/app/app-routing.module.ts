@@ -15,7 +15,9 @@ const routes: Routes = [
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
   },
-  { path: 'instalacao', loadChildren: './instalacao/instalacao.module#InstalacaoPageModule' }
+  { path: 'instalacao', loadChildren: './instalacao/instalacao.module#InstalacaoPageModule' },
+  { path: 'layout', loadChildren: './layout/layout.module#LayoutPageModule' },
+  { path: 'layou-header-footer', loadChildren: './layou-header-footer/layou-header-footer.module#LayouHeaderFooterPageModule' }
 ];
 
 @NgModule({
