@@ -8,8 +8,9 @@
 </ion-header>
 
 <ion-content padding>
-  <ion-button expand="full" (click)="openLayoutHeaderFooter()">Header and Footer</ion-button>
-  <ion-button expand="full" (click)="openLayoutTabs()">Tabs</ion-button>
-  <ion-button expand="full" (click)="openLayoutMenu()">Menu</ion-button>
-  <ion-button expand="full" (click)="openLayoutSplitPane()">Split Pane</ion-button>
+  <ion-button expand="full" (click)="openPage('/layou-header-footer')">Header and Footer</ion-button>
+  <ion-button expand="full" (click)="openPage('/layout-tabs')">Tabs</ion-button>
+  <ion-button expand="full" (click)="openPage('layout-menu')">Menu</ion-button>
+  <ion-button expand="full" (click)="openPage('splitPane')">Split Pane</ion-button>
+  <ion-button expand="full" (click)="openPage('layout-grid')">Grid</ion-button>
 </ion-content>
